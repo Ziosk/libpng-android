@@ -1,0 +1,5 @@
+include( CMakeFindDependencyMacro )
+
+find_dependency( @zlib_find_package_name@ @zlib_find_package_type@ )
+
+include( ${CMAKE_CURRENT_LIST_DIR}/@PNG_EXPORT_NAME@.cmake )
